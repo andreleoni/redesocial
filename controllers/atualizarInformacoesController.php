@@ -28,7 +28,7 @@ class atualizarinformacoesController extends controller {
 		} else if ((($_POST['mes'] < 0) || ($_POST['mes'] > 12)) || empty($_POST['mes'])) {
 			$_SESSION["statusAlterarRegistro"] = "Preencha um mês válido.";
 			header("Location: /atualizarInformacoes");
-		} else if ((($_POST['ano'] < 1990) || ($_POST['ano'] > 2015)) || empty($_POST['ano'])) {
+		} else if ((($_POST['ano'] < 1900) || ($_POST['ano'] > 2015)) || empty($_POST['ano'])) {
 			$_SESSION["statusAlterarRegistro"] = "Preencha um ano válido.";
 			header("Location: /atualizarInformacoes");
 		} else {
