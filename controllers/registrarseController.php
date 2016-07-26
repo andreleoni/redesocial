@@ -9,6 +9,10 @@ class registrarseController extends controller {
 		$dados = array();
 		$model = new model();
 		$usuario = new usuario();
+
+		if (isset($_SESSION["userinvalido"])) {
+			unset($_SESSION["userinvalido"]); 
+		}
 		
 		if (!isset($_POST['registrarse'])){
 			$this->loadView('registrarse', $dados);

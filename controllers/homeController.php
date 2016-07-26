@@ -9,6 +9,9 @@ class homeController extends controller {
 		$dados = array();
 		
 		if (!isset($_SESSION['idusuario'])){
+			if (isset($_SESSION["statusNovoRegistro"])) {
+				unset($_SESSION["statusNovoRegistro"]);
+			}
 			$this->loadView("loginview", $dados);
 			
 		} else {
