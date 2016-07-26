@@ -10,7 +10,7 @@ class todososusuariosController extends controller {
 		$idUsuarioLogado = $_SESSION['idusuario'];
 
 		if (isset($_POST['usuarioPesquisado'])){
-			$usuarioDoPesquisar = $_POST['usuarioPesquisado'];	
+			$usuarioDoPesquisar = addslashes($_POST['usuarioPesquisado']);
 			$sql = "SELECT * FROM usuarios where (usuarios_nomecompleto like '%$usuarioDoPesquisar%') AND !(usuarios_id like $idUsuarioLogado)";
 		} else {
 			$sql = "SELECT * FROM usuarios WHERE !(usuarios_id like $idUsuarioLogado)";
