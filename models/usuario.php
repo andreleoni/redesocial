@@ -68,15 +68,20 @@ class usuario extends model{
 	}
 
 	public function excluirConta(){
-		$usuarioLogado = $_SESSION['idusuario'];
-		$sql = "DELETE FROM posts where posts_id_usuario = '$usuarioLogado'";
-		$this->db->query($sql);
-		
-		$sql = "DELETE FROM usuarios where usuarios_id = '$usuarioLogado'";
-		$this->db->query($sql);
+		if (isset($_SESSION['idusuario'])){
+			$usuarioLogado = $_SESSION['idusuario'];
+			$sql = "DELETE FROM posts where posts_id_usuario = '$usuarioLogado'";
+			$this->db->query($sql);
+			
+			$sql = "DELETE FROM usuarios where usuarios_id = '$usuarioLogado'";
+			$this->db->query($sql);
 
-		$sql = "DELETE FROM relacionamentos where (relacionamentos_idadicinou = '$usuarioLogado' OR relacionamentos_idadicionado = '$usuarioLogado')";
-		$this->db->query($sql);
+			$sql = "DELETE FROM relacionamentos where (relacionamentos_idadicinou = '$usuarioLogado' OR relacionamentos_idadicionado = '$usuarioLogado')";
+			$this->db->query($sql);
+			if (isset($_SESSION["userinvalido"])) {
+				unset($_SESSION["userinvalido"]);
+			}
+		}
 	}
 
 	public function atualizarInformacoes($nomecompleto, $email, $descricao, $dia, $mes, $ano, $fotoperfil){

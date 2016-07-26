@@ -13,6 +13,7 @@ class excluirminhacontaController extends controller {
 	}
 
 	public function excluirConta(){
+		$dados = array();
 		$usuario = new usuario();
 		$usuario->excluirConta();
 		session_destroy();
