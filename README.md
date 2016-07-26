@@ -6,5 +6,6 @@ Estrutura da aplicação: Estrutura desenvolvida sobre o PHP 7 e mySQL. Foi util
 
 Estrutura: A aplicação foi construida em padrão MVC, onde foi criado uma estrutura com autoload para os Controllers e Models.
 Para utilização da estrutura, é necessário criar um virutualhost ou colocar a aplicação na Raiz do Localhost, pois ele utiliza dos parâmetros passados no link para processamento das informações.
+Na pasta docs tem o banco de dados da aplicação e algumas informações referente a construção dela.
 
 Testes: Para fazer os testes, foi executado a aplicação em uma máquina virtual com php 7, mysql e CentOS-7.
