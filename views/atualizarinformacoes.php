@@ -14,7 +14,7 @@ if (isset($_SESSION["statusAlterarRegistro"])) {
 		<tr> <td><p></p></td><td></td></tr>
 		<tr>
 			<td><b> E-mail: </b></td>
-			<td> <input type="text" size="30" name="email" value="<?php echo $atualizarinformacoes['usuarios_email']; ?>"> </td>
+			<td> <input readonly="readonly" type="text" size="30" name="email" value="<?php echo $atualizarinformacoes['usuarios_email']; ?>"> </td>
 		</tr>
 		<tr> <td><p></p></td><td></td></tr>
 		<tr>
