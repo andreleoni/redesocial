@@ -8,4 +8,4 @@ Estrutura: A aplicação foi construida em padrão MVC, onde foi criado uma estr
 Para utilização da estrutura, é necessário criar um virutualhost ou colocar a aplicação na Raiz do Localhost, pois ele utiliza dos parâmetros passados no link para processamento das informações.
 Na pasta docs tem o banco de dados da aplicação e algumas informações referente a construção dela.
 
-Testes: Para fazer os testes, foi executado a aplicação em uma máquina virtual com php 7, mysql e CentOS-7.
+Testes: Para fazer os testes, foi executado a aplicação em uma máquina virtual com php 7, mysql e CentOS-7. E efetuado testes automatizados com a ferramenta Selenium (Gravação do Vídeo de execução dos testes https://www.youtube.com/upload).
