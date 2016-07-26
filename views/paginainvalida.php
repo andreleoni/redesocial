@@ -1,0 +1,1 @@
+<center> <h2> Página inválida. <a href="/"> Clique aqui </a> para redirecionar para a página principal. </h2></center>
