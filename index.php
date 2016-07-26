@@ -4,7 +4,6 @@ require 'config.php';
 $_SESSION['status'] = '';
 date_default_timezone_set('America/Sao_Paulo');
 
-
 spl_autoload_register(function ($class){
 	if(strpos($class, 'Controller') > -1) {
 		if(file_exists('controllers/'.$class.'.php')) {
