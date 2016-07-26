@@ -9,7 +9,7 @@ if(AMBIENTE == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	$config['dbname'] = 'redesocial_production';
+	$config['dbname'] = 'redesocial';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
