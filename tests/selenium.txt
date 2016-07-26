@@ -1,0 +1,1164 @@
+Copiar e Colar este Script no Selenium.
+Versão utilizada foi para o Firefox.
+
+Antes de utilizá-lo, favor apagar todos os registros do banco de dados.
+
+<<<<<<COPIE A PARTIR DA LINHA ABAIXO>>>>>>>>>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>André Luiz Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>28</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>08</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1992</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Wilson</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Wilson Luiz Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1950</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Wilson Luiz Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>wilson</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>wilson@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1950</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>aaa</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>aaa</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>aaa</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>-1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>32</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1950</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1880</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>2016</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1960</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Salete Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>sale@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1950</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=texto</td>
+	<td>ola, sou o Andre</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Postar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>Leoni</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>Wilson</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>Salete</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>Wil</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feed de Noticias</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=texto</td>
+	<td>Ola, vou excluir para teste</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Postar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Meus Amigos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=clique aqui.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>André Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>06</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1990</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=descricao</td>
+	<td>Desenvolvedor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=fotoperfil</td>
+	<td>/Users/andreleoni/Desktop/Screen Shot 2016-07-21 at 11.25.33.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senhaOriginal</td>
+	<td>andre</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senhaConfirmacao</td>
+	<td>andre</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sair</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>wilson@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>Andr</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>leoni</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=usuarioPesquisado</td>
+	<td>salete</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feed de Noticias</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=texto</td>
+	<td>Olá, sou o Wilson</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Postar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=texto</td>
+	<td>Olá, vou excluir esta mensagem</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Postar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-ok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feed de Noticias</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Meus Amigos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=descricao</td>
+	<td>Desenvolvedor</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ano</td>
+	<td>1980</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=dia</td>
+	<td>01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=mes</td>
+	<td>02</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nomecompleto</td>
+	<td>Wilson Leoni</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=fotoperfil</td>
+	<td>/Users/andreleoni/Desktop/Screen Shot 2016-07-25 at 10.29.10.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sair</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>salete@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=texto</td>
+	<td>Olá<br /></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Postar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=texto</td>
+	<td>Olá, sou o feed da salete</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Postar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-ok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-ok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feed de Noticias</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Meus Amigos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//td[2]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=clique aqui.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feed de Noticias</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andre@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andre@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>andre</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andre@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>andre</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>andre</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Meus Amigos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-ok</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Feed de Noticias</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>wilson@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=ul.dropdown-menu &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Meu Perfil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>andreluizleoni@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=senha</td>
+	<td>andre</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=enviar</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
