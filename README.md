@@ -1,4 +1,4 @@
-Rede Social - CodeRockr
+<b> Rede Social - CodeRockr </b>
 
 <b>Finalidade do Projeto</b>: A aplicação é uma rede social com cadastro de amigos e feed de notícias criada para o processo seletivo de uma empresa.
 
