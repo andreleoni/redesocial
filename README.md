@@ -1,6 +1,6 @@
 <b> Rede Social - CodeRockr </b>
 
-<b> Git </b>: Os Commits foram enviados por framework, e por arquivo, em cada commit tem uma pequena esplicação do que faz aquele arquivo.
+<b> Git </b>: Os Commits foram enviados por framework (bootstrap / vendor), e por arquivo do projeto (cada arquivo .php foi enviado separadamente, assim, evita bagunça tendo uma descrição do que o arquivo faz no sistema e de suas alterações isoladamente, aumentando o domínio da equipe sobre a aplicação construida).
 
 <b>Finalidade do Projeto</b>: A aplicação é uma rede social com cadastro de amigos e feed de notícias criada para o processo seletivo de uma empresa.
 
