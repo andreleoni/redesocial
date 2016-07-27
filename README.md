@@ -8,7 +8,7 @@ Rede Social - CodeRockr
 Para utilização da estrutura, é necessário criar um virutualhost ou colocar a aplicação na Raiz do Localhost.
 Na pasta docs tem o banco de dados da aplicação e algumas informações referente a construção dele.
 
-<b>Testes</b>: Para fazer os testes, foi executado a aplicação em uma máquina virtual com php 7, mysql e FedoraServer. E efetuado testes automatizados com a ferramenta Selenium (Gravação do Vídeo de execução dos testes https://youtu.be/-F7sAB5rzik).
+<b>Testes</b>: Para fazer os testes, foi executado a aplicação em uma máquina virtual com php 7, mysql e FedoraServer. E efetuado testes automatizados com a ferramenta Selenium (Documento com o script do teste dentro de Tests), (Gravação do Vídeo de execução dos testes https://youtu.be/-F7sAB5rzik).
 
 O <b>Composer</b> está configurado apenas para baixar o PHPUnit, porém, os testes com PHPUnit por enquanto não foram eficazes devido a um erro de banco de dados.
 
