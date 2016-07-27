@@ -1,7 +1,7 @@
 <?php
 
 class classeDeTeste extends PHPUnit_Framework_TestCase {
-
+  
 	public function testeDaFuncaoMaskDaClasseModel(){ 
 		date_default_timezone_set('America/Sao_Paulo');
 		$classesDoSistema = new classesDoSistema();
