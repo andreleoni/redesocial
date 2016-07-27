@@ -1,6 +1,6 @@
 <?php
 
-class classesDoSistema {
+class classesDeTeste {
 
 	function mask($val, $mask){
 		$maskared = '';
