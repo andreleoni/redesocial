@@ -9,15 +9,17 @@ Para utilização da estrutura, é necessário criar um virutualhost ou colocar 
 Na pasta docs tem o banco de dados da aplicação e algumas informações referente a construção dela.
 
 <b>Testes</b>: Para fazer os testes, foi executado a aplicação em uma máquina virtual com php 7, mysql e CentOS-7. E efetuado testes automatizados com a ferramenta Selenium (Gravação do Vídeo de execução dos testes https://youtu.be/-F7sAB5rzik).
+Teste com PHPUnit por enquanto não foram eficazes devido a um erro de banco de dados.
 
 <b>VirtualHost necessário para utilizar a aplicação</b>:
-<VirtualHost *:80>
-    DocumentRoot "/users/andreleoni/Documents/www/coderockr"
-    ServerName coderockr.pc
-    <Directory "/users/andreleoni/Documents/www/coderockr">
-            Options Indexes Multiviews FollowSymLinks
-            AllowOverride All
-            Order allow,deny
-            Allow from all
-    </Directory>
-</VirtualHost>
+
+    <VirtualHost *:80>
+        DocumentRoot "/users/andreleoni/Documents/www/coderockr"
+        ServerName coderockr.pc
+        <Directory "/users/andreleoni/Documents/www/coderockr">
+                Options Indexes Multiviews FollowSymLinks
+                AllowOverride All
+                Order allow,deny
+                Allow from all
+        </Directory>
+    </VirtualHost>
